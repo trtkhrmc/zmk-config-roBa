@@ -58,6 +58,11 @@
             bindings = <&mo 3>;
             key-positions = <39 38>;
         };
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <0 1>;
+        };
     };
 
     macros {
