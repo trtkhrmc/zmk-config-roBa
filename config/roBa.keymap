@@ -108,10 +108,11 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
+
         mo2: mo2 {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp N2>, <&kp AT>;
+            bindings = <&kp AT>, <&kp AT>;
 
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
@@ -119,7 +120,7 @@
         mo6: mo6 {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp N6>, <&kp CARET>;
+            bindings = <&kp CARET>, <&kp CARET>;
 
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
@@ -127,7 +128,7 @@
         mo7: mo7 {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp N7>, <&kp AMPS>;
+            bindings = <&kp AMPERSAND>, <&kp AMPS>;
 
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
@@ -154,7 +155,8 @@
             bindings = <&kp N0>, <&kp LS(N9)>;
 
             mods = <(MOD_LSFT|MOD_RSFT)>;
-        }
+        };
+
         moA: moA {
             compatible = "zmk,behavior-mod-morph";
             bindings = <&kp MINUS>, <&kp UNDER>;
@@ -244,10 +246,10 @@
 
         FUNCTION {
             bindings = <
-&kp EXCL  &kp DOUBLE_QUOTES  &kp HASH  &kp DOLLAR  &kp PERCENT                                                   &kp AMPERSAND  &kp SQT   &moA          &moB       &moC
-&trans    &trans             &trans    &trans      &trans       &trans                    &trans                 &trans         &trans    &kp UP_ARROW  &moF       &moG
-&trans    &trans             &trans    &trans      &trans       &kp LEFT_PARENTHESIS      &kp RIGHT_PARENTHESIS  &trans         &kp LEFT  &kp DOWN      &kp RIGHT  &trans
-&trans    &trans             &trans    &trans      &trans       &trans                    &kp DELETE             &trans                                            &moI
+&kp LS(N1)  &mo2    &kp LS(N3)  &kp LS(N4)  &kp LS(N5)                                                   &mo6    &mo7      &moA          &moB       &moC
+&trans      &trans  &trans      &trans      &trans      &trans                    &trans                 &trans  &trans    &kp UP_ARROW  &moF       &moG
+&trans      &trans  &trans      &trans      &trans      &kp LEFT_PARENTHESIS      &kp RIGHT_PARENTHESIS  &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &trans
+&trans      &trans  &trans      &trans      &trans      &trans                    &kp DELETE             &trans                                     &moI
             >;
         };
 
