@@ -277,8 +277,8 @@
 
         FUNCTION {
             bindings = <
-&kp N1  &mo2    &kp N3  &kp N4  &kp N5                                       &mo6    &mo7      &moA          &moB       &moC
-&trans  &trans  &trans  &trans  &trans  &trans         &trans                &trans  &trans    &kp UP_ARROW  &moF       &moG
+&kp N1  &mo2    &kp N3  &kp N4  &kp N5                                       &mo6    &mo7      &mo8          &mo9       &mo0
+&trans  &trans  &trans  &trans  &trans  &trans         &moA                  &moB    &moC      &kp UP_ARROW  &moF       &moG
 &trans  &trans  &trans  &trans  &trans  &kp ASTRK      &kp LEFT_PARENTHESIS  &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &trans
 &trans  &trans  &trans  &trans  &trans  &trans         &kp DELETE            &trans                                     &moI
             >;
