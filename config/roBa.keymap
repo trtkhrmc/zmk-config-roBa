@@ -194,7 +194,7 @@
 
         moC: moC {
             compatible = "zmk,behavior-mod-morph";
-            bindings = <&kp INT3>, <&none>;
+            bindings = <&kp INT3>, <&kp LS(0x89)>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
