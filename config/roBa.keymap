@@ -92,12 +92,12 @@
 
         mb4 {
             bindings = <&mkp MB4>;
-            key-positions = <19 18>;
+            key-positions = <6 7>;
         };
 
         mb5 {
             bindings = <&mkp MB5>;
-            key-positions = <19 20>;
+            key-positions = <7 8>;
         };
     };
 
